@@ -5,16 +5,17 @@ public class Calculador implements ICalculador {
 
     @Override
     public double calculardistancia() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+       
+        return punto1.getX();
     }
 
     @Override
     public double calculararea() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return punto2.getY();
     }
 
     @Override
     public double calcularpendiente() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return punto1.getX()-punto1.getY();
     }
 }
