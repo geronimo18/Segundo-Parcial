@@ -2,8 +2,8 @@ package segundoparcial;
 
 public interface ICalculador {
     
-    void calculardistancia();
-    void calculararea();
-    void calcularpendiente();
+    public double calculardistancia();
+    public double calculararea();
+    public double calcularpendiente();
     
 }

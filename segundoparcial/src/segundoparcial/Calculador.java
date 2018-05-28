@@ -1,21 +1,20 @@
 package segundoparcial;
-public class Calculador implements ICalculador {
-    int d;
+public class Calculador implements ICalculador {    
+    Punto punto1=new Punto();
+    Punto punto2=new Punto();   
 
     @Override
-    public void calculardistancia() {
-                
-    }
-
-    @Override
-    public void calculararea() {
+    public double calculardistancia() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void calcularpendiente() {
+    public double calculararea() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
-    
+
+    @Override
+    public double calcularpendiente() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
