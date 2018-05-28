@@ -18,4 +18,8 @@ public class Punto {
     public void setY(int y) {
         this.y = y;
     }
+    
+    public void setPoint(int m, int n){
+        
+    }
 }
